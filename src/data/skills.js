@@ -1,0 +1,76 @@
+import {
+  ArrowLeftRight,
+  Atom,
+  Boxes,
+  Braces,
+  Cloud,
+  CreditCard,
+  Database,
+  FileCode,
+  FileType,
+  FormInput,
+  GitBranch,
+  ImageUp,
+  Layers,
+  LayoutGrid,
+  Network,
+  Paintbrush,
+  PenTool,
+  RefreshCcw,
+  Rocket,
+  Route,
+  Send,
+  Server,
+  Sparkles,
+  Triangle,
+  Wallet,
+  Wind,
+  Workflow,
+  Zap,
+} from 'lucide-react';
+
+// Categories follow the skills section of the CV.
+export const skillCategories = [
+  { id: 'languages', label: 'Programming Languages' },
+  { id: 'frameworks', label: 'Libraries & Frameworks' },
+  { id: 'web', label: 'Web Technologies' },
+  { id: 'tools', label: 'Tools & Platforms' },
+  { id: 'design', label: 'Design & Prototyping' },
+  { id: 'concepts', label: 'Concepts' },
+];
+
+export const skills = [
+  { name: 'JavaScript', category: 'languages', icon: Braces },
+  { name: 'TypeScript', category: 'languages', icon: FileType },
+
+  { name: 'React.js', category: 'frameworks', icon: Atom },
+  { name: 'Next.js', category: 'frameworks', icon: Triangle },
+  { name: 'Redux Toolkit', category: 'frameworks', icon: Boxes },
+  { name: 'Node.js', category: 'frameworks', icon: Server },
+  { name: 'Express.js', category: 'frameworks', icon: Route },
+  { name: 'Tailwind CSS', category: 'frameworks', icon: Wind },
+  { name: 'Bootstrap', category: 'frameworks', icon: LayoutGrid },
+  { name: 'Framer Motion', category: 'frameworks', icon: Sparkles },
+  { name: 'React Hook Form', category: 'frameworks', icon: FormInput },
+  { name: 'Socket.IO', category: 'frameworks', icon: Zap },
+
+  { name: 'HTML5', category: 'web', icon: FileCode },
+  { name: 'CSS3', category: 'web', icon: Paintbrush },
+  { name: 'MongoDB', category: 'web', icon: Database },
+  { name: 'Axios & REST APIs', category: 'web', icon: ArrowLeftRight },
+
+  { name: 'Git & GitHub', category: 'tools', icon: GitBranch },
+  { name: 'GitHub Actions', category: 'tools', icon: Workflow },
+  { name: 'Vercel', category: 'tools', icon: Rocket },
+  { name: 'Render', category: 'tools', icon: Cloud },
+  { name: 'Postman', category: 'tools', icon: Send },
+  { name: 'Cloudinary', category: 'tools', icon: ImageUp },
+  { name: 'Razorpay', category: 'tools', icon: CreditCard },
+  { name: 'Stripe', category: 'tools', icon: Wallet },
+
+  { name: 'Figma', category: 'design', icon: PenTool },
+
+  { name: 'Clean Architecture', category: 'concepts', icon: Layers },
+  { name: 'MVC Pattern', category: 'concepts', icon: Network },
+  { name: 'Agile Methodologies', category: 'concepts', icon: RefreshCcw },
+];
